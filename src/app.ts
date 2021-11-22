@@ -1,3 +1,8 @@
 import Stopwatch from './StopwatchWithResults.js'
 
-new Stopwatch(document.querySelector('.stopwatch'))
+new Stopwatch(document.querySelector('.stopwatch') as HTMLDivElement);
+
+
+
+
+  
